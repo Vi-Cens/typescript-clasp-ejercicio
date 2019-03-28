@@ -11,7 +11,7 @@ function onOpen() {
 function menuItem1() {
   SpreadsheetApp.getUi() // Or DocumentApp or FormApp.
      .alert('CALCULANDO!');
-  logCosto();
+  calcular();
 }
 
 function menuItem2() {
