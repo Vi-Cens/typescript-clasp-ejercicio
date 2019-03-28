@@ -42,8 +42,8 @@ function calcular(){
             //si el id de "ProductosMateriales" es igual a el id de "Materiales"
             if(dataPM[i][1] === dataM[j][0]){
                 let idProducto = dataPM [i][0];
-                let cantidad = dataPM[i][2];
-                let costoMaterial = dataM[j][2];
+                let cantidad:any = dataPM[i][2];
+                let costoMaterial:any = dataM[j][2];
                 costoUnitario = cantidad * costoMaterial;
                 let newCosto = {
                     idProducto: idProducto,

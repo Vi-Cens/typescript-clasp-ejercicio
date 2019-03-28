@@ -18,5 +18,5 @@ function menuItem2() {
   promptEmail();
   SpreadsheetApp.getUi() // Or DocumentApp or FormApp.
      .alert('Enviando listado!');
-  enviarListado();
+  //enviarListado();
 }
