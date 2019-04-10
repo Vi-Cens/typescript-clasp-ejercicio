@@ -9,14 +9,13 @@ function onOpen() {
 }
 
 function menuItem1() {
-  SpreadsheetApp.getUi() // Or DocumentApp or FormApp.
+  SpreadsheetApp.getUi() 
      .alert('CALCULANDO!');
   calcular();
 }
 
 function menuItem2() {
   promptEmail();
-  SpreadsheetApp.getUi() // Or DocumentApp or FormApp.
+  SpreadsheetApp.getUi()
      .alert('Enviando listado!');
-  //enviarListado();
 }

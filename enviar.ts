@@ -37,4 +37,3 @@ var enviarListado = (email) =>{
   }
   MailApp.sendEmail(email,'Lista Productos','Listado', {'htmlBody':messageHTML});
 }
-  
