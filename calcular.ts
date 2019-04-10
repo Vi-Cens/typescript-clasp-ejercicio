@@ -6,7 +6,7 @@ function calcular(){
         categoria:number;
         costo:number; 
 
-        constructor(id:number, nombre:string, categoria:number, costo:number){
+        constructor(id, nombre, categoria, costo){
             this.id = id;
             this.nombre = nombre;
             this.categoria = categoria;
@@ -25,7 +25,7 @@ function calcular(){
         idMaterial: number;
         cantidad:number;
 
-        constructor(id:number, idMaterial:number, cantidad:number){
+        constructor(id, idMaterial, cantidad){
             this.id = id;
             this.idMaterial = idMaterial;
             this.cantidad = cantidad;
@@ -43,7 +43,7 @@ function calcular(){
         nombre: string;
         costoUnitario: number;
 
-        constructor(idMaterial:number, nombre:string, costoUnitario:number){
+        constructor(idMaterial, nombre, costoUnitario){
             this.idMaterial = idMaterial;
             this.nombre = nombre;
             this.costoUnitario = costoUnitario;
@@ -54,7 +54,6 @@ function calcular(){
             let data = materiales.getDataRange().getValues();
             return data;
         }
-
     }
 
     // Inicializar array donde se alojaran los objetos (array de objetos)
